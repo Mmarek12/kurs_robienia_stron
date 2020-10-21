@@ -1,0 +1,36 @@
+#jakość {
+ 
+    margin: 300px 0px 0px;
+    display: flex;    
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.cardIconBackground {
+    max-width: 150px;
+    max-height: 150px;
+    padding: 30px;
+    background-color: #04bbe9;
+    border-radius: 50%;
+}
+
+.cardIcon {
+    max-width: 100px;
+}
+
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom :hover {
+    transform: scale(1.3);
+}
